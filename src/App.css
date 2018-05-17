@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 140px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.FactsTable {
+  /*border: 1px solid red;*/
+  border-spacing: 0px;
+}
+
+.FactsTable th {
+  min-width: 50px;
+  border-bottom: 3px solid #000ADD;
+}
+
+.FactsTable th, .FactsTable td {
+  /*background-color: #D3D3D3;*/
+  padding: 10px;
+  text-align: left;
+}
+
+.FactsTable td {
+  border-bottom: 1px solid #2C349F;
+}
+
+
+.PlayGraph {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-collapse: collapse;;
+  /*border: 1px solid red;*/
+  border-spacing: 0px;
+  margin-left: 20px;
+}
+
+
+.PlayGraph td {
+  border-bottom: 1px solid blue;
+}
+
+
+.PlayGraph td {
+  border: 1px solid #8F8F8F;
+  width: 24px;
+  height: 24px;
+  /*border-bottom: 1px solid blue;*/
+  /*border-right: 1px solid red;*/
+}
+
+td.pg-x-axis-label {
+  border: 0px solid blue;
+}
+
+.pg-x-axis-label div {
+  position: relative;
+  top: 0px;
+  left: 13px;
+}
+
+td.pg-y-axis-label {
+  border: 0px solid blue;
+}
+
+.pg-y-axis-label div {
+  position: relative;
+  top: 13px;
+  right: 1px;
+  text-align: right;
+  color: red;
+}
+
+td.pg-path-left {
+  border-left: 2px solid #4BC6FF;
+}
+
+td.pg-path-bottom {
+  border-bottom: 2px solid #4BC6FF;
+}
+
+div.pg-hover {
+  display: block;
+  width: 18px;
+  height: 18px;
+  /*background-color: red;*/
+  position: relative;
+  bottom: -15px;
+  left: -8px;
+}
+
+div.pg-hover-item div.pg-hover-inner {
+  display: block;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  left: 12px;
+  top: 2px;
+
+
+  background-color: #AAD9DB;
+}
+
+.font-11 {
+  font-size: small;
+}
